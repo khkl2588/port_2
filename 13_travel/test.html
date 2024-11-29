@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/basic.css">
+  <script src="js/js.js" defer></script>
+</head>
+<body>
+  <p class="txt2">EXPLORE THE WORLD!!</p>
+  <h1 class="MainTxt">Travel Top <br> Destination of the  <br> world</h1>
+
+  <p class="title_top">SERVICES</p>
+  <h2>Our top value  categories for you</h2>
+
+  <a href="#" class="btn">Sign Up</a>
+  <a href="#" class="btn subColor">Sign Up</a>
+  <a href="#" class="btn mainColor">Sign Up</a>
+<br><br><br>
+<hr><br><br><br>
+  <span class="count" data-count="500"></span><br>
+  <span class="count" data-count="7"></span><br>
+  <span class="count" data-count="20"></span><br>
+  <span class="count" data-count="200"></span><br>
+  <!-- 
+    0부터 data-count속성값까지 증가하는 값이 span에 애니메이션으로 표시됨
+  -->
+<style>
+  .count { font-size: 5rem;}
+
+</style>
+<script>
+  document.querySelectorAll('.count').forEach(countElement => {
+    const updateCount = () => {
+        const target = +countElement.getAttribute('data-count');
+        let current = 0;
+        const increment = target / 200; // Adjust the speed of the counting
+
+        const interval = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+                current = target;
+                clearInterval(interval);
+                countElement.classList.add('completed'); // Add completed class for styling
+            }
+            countElement.textContent = Math.floor(current);
+        }, 10); // Adjust for smoother animation
+    };
+
+    updateCount();
+});
+</script>
+</body>
+</html>
