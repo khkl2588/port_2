@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+#con_wrap.sub {
+   background:#EFEFEF;
+   height: calc(100vh - 170px);
+   min-height: 570px;
+}
+
+.subHeader {  
+   height: 50px;
+   background:white;
+   position:relative;
+   border-bottom: 1px solid gray;
+}
+
+.subHeader h2 {
+   text-align: center;
+   line-height: 50px;
+   font-size: 24px;
+   font-weight: 500;
+}
+
+.prev {
+   position:absolute;
+}
+
+.prev img {
+   height: 49px;
+}
+
+.sub main {
+   padding:20px 10px;
+}
+
+.subtext {
+   font-size: 14px;
+   line-height: 20px;
+}
+
+.sub_search {
+   background:white;
+   border:1px solid #b9b9b9;
+   padding:25px 17px 17px;
+   margin-top:10px;
+}
+
+.sub_search_wrap {
+   position: relative;
+}
+
+.sub_search_wrap input {
+   border:none;
+   border-bottom:1px solid #b9b9b9;
+   width:calc(95% - 50px);
+   font-size:14px;
+   padding:5px;
+}
+
+.sub_search_btn {
+   position:absolute;
+   right: 0;
+   bottom: 0;
+}
+
+.sub_search_btn a {
+   display:inline-block;
+   background:#666;
+   color:white;
+   font-size: 12px;
+   padding:8px 12px;
+   border-radius: 2px;
+}
+
+.conlist_wrap {
+   display:grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows:repeat(3, 100px) ;
+   grid-auto-flow:100px;
+   gap:12px;
+   margin-top:20px;
+}
+
+.conlist_wrap li  {
+   display: table;
+}
+
+.conlist_wrap a {
+   display: table-cell;
+   border: 1px solid #ddd;
+   background:white;
+   text-align: center;}
+
+.conlist_wrap img {
+
+}
+
+.staff .conlist_wrap img {
+   height: 78px;
+}

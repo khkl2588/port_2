@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@media (max-width:1080px){
+   .header_in { width: 100%; padding:20px 0; }
+   h1 { float: none; text-align:center;}
+   .gnb { float:none; justify-content: center; width: auto; }
+   .topBanner { height: 70px;}
+   .topBanner a { height: 70px;}
+   .topBanner strong { font-size:20px;}
+   .topBanner span { font-size: 12px;}
+
+   /* 슬라이더 */
+   #slider_wrap {
+      width: 100%;
+   }
+   #slider {
+      width: 100%;
+   }
+   #slider img {
+      width: 100%;
+   }
+   .prev {
+      left:20px;
+   }
+   .next {
+      right:20px;
+   }
+
+   /* content */
+   #content {
+      width: 100%;
+      padding:30px 0;   
+   }
+
+
+   /* footer */
+   .footer_in {
+      width: 100%;
+      padding:30px 0;
+   }
+   .ft_company {
+      width: auto;
+      margin: 0 20px 0 60px;
+   }
+   .ft_sns a {
+      margin-left: 6px;
+   }
+}
+
+
+
+
+
+
+
+
+@media (max-width:860px){
+   .topBanner a { flex-direction: column; gap:6px}
+   .topBanner strong { font-size: 16px;}
+   
+   .header_in { padding:15px 0; height: 65px;}
+
+   h1 { margin-bottom: 0;}
+   h1 img { height: 33px;}
+
+   .gnbOpen { display: block;}
+
+   #gnb { position: fixed; top:0; right: 0; width: 70%; height: 100%;
+      background:#fff; border:solid 2px red; z-index: 1000;
+      transform: translateX(100%); transition: 0.3s ease-in-out;}
+   #gnb.open { transform: translateX(0);}
+   .gnb_logo { display: block; padding :10px 0 0 20px}
+   .gnb { display: block;}
+
+   .gnbM { width: 100%; text-align: left;}
+   .gnbM > a { border-bottom: 1px solid #ccc;
+   line-height: 58px; padding-left:20px}
+   .gnbM:last-of-type {width: 100%;}
+   
+   .sub{
+      position: relative;
+      top:40px;
+      padding:0;
+      top:0;
+      width: 100%;
+      background:#f7f7f7
+   }
+   .sub li a { 
+      display:block; line-height: 20px; padding-left: 20px;
+      border-bottom: 1px solid #ccc;}
+   .sub_bg {display: none;}
+   .subT {display: none;}
+
+
+   /* tab */
+   .flex-box li {
+      width: calc(50% - 20px);
+   }
+   .list .title {
+      font-size: 16px;
+   }
+   .multi li:last-child {
+      display: none;
+   }
+
+   /* footer */
+   .footer_in {
+      flex-direction: column;
+      align-items: center;
+   }
+   footer h2 {
+
+   }
+   .ft_company {
+      margin: 0;
+      text-align: center;
+   }
+   .ft_info {
+
+   }
+   .ft_sns {
+      text-align: left;
+      margin-bottom: ;
+   }
+} 
+
+
+@media (max-width:600px){
+
+   .flex-box li {
+      width:100%;
+      margin:0 20px 10px 0;
+   }
+   .flex-box li a {
+      height: 140px;
+      padding:16px;
+   }
+   .flex-box li a p {
+      font-size: 16px;;
+   }
+
+   .cate {
+      width: 50px;
+      height: 22px;
+      font-size: 11px;
+      margin-bottom: 16px;
+   }
+   .date {
+      bottom: 20px;
+      left: 20px;
+      font-size: 12px;
+   }
+   .list a {
+      padding:10px;
+   }
+   .list .title {
+   font-size: 16px;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 1; /* 라인 수 */
+   overflow: hidden;
+   }
+   .list figure {
+      margin-right: 20px;
+   }
+   .list img { 
+      width: 110px;
+   }
+   .multi {
+      flex-direction: column;
+   }
+
+
+}
