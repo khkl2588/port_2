@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+* {margin:0; padding:0; box-sizing: border-box;}
+li {list-style:none;}
+a {text-decoration:none;}
+body {color:#111; font-family:"NotoSans"}
+
+header{position:absolute; width: 100%; height:80px; z-index:10;}
+
+.title { display:block; position:absolute; left:50%; top:15px; margin-left:-55px;
+         width:110px; height:50px;
+         background:url(img/logo_w.svg) no-repeat 50%;
+         text-indent:-990px;
+      }
+
+#visual { position:relative; height:100vh;}
+#visual .text {position:absolute; bottom:22px; left:2vw; color:white; }
+
+.text h2{ font-size:55px; margin-bottom:5px;}
+.description {margin-bottom:35px; font-size:20px;}
+.price{margin-bottom:10px;}
+.price span {font-size:40px; font-weight:600;}
+.price_text {margin-bottom: 15px;}
+.text a {color:#b1b1b1; font-size:17px;}
+.text a img {vertical-align:middle;}
+
+#info_box{ display:none; position:absolute; bottom:0px; right:-240px;
+   background:white; color:black; z-index:150;
+   border-radius:10px; padding:20px; width:500px; height:240px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)}
+#info_box p { margin:20px 0;}
+
+.warning:hover + #info_box {display:block;}
+
+.specs{
+position:absolute; bottom:85px; right:12vw; color:white}
+.specs ul {display:table; width:550px;}
+.specs li {display:table-cell; text-align:center;}
+.specs li p{margin-top:10px; font-weight:bold;}
+
+picture img {width:100%; height:100%; object-fit:cover}
+
+nav{ padding:20px 50px; box-shadow:0 10px 20px rgba(0, 0, 0, 0.2); position:sticky; top:0; background-color: white;}
+nav h2 { display:inline;  margin-right:30px; position:relative; top:0px; }
+nav ul { display:inline-block; position:relative; top:5px;}
+nav li { float:left; margin-right:30px;}
+nav a { position:relative; font-size:18px; color:rgb(75, 75, 75); font-weight:600; }
+
+.icon {margin-right:30px;}
+.icon::after { display:inline-block; content:""; width:24px; height:24px; background:url(img/subnav_screen_icon.svg); position:absolute; top:0px; right:-26px;}
+
+main {padding:100px 0}
+main h2{text-align:center; font-size:48px; margin-bottom:60px;}
+
+section.text{width:900px; margin: 50px auto;}
+
+.chat { position:fixed; right:3vw; bottom:50px;}
+.chat a { background:url(img/icon_Chat-Active.svg) 50% 50%;    width:80px; height:80px; display:block; text-indent:-9999px;}

@@ -1,0 +1,37 @@
+<svg id="Torque" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_4047" data-name="사각형 4047" width="40" height="40" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_5226" data-name="그룹 5226" clip-path="url(#clip-path)">
+    <g id="그룹_5225" data-name="그룹 5225">
+      <g id="그룹_5224" data-name="그룹 5224" clip-path="url(#clip-path)">
+        <g id="그룹_5223" data-name="그룹 5223" opacity="0">
+          <g id="그룹_5222" data-name="그룹 5222">
+            <g id="그룹_5221" data-name="그룹 5221" clip-path="url(#clip-path)">
+              <rect id="사각형_4038" data-name="사각형 4038" width="40" height="40" fill="#cfcdcd"/>
+              <rect id="사각형_4039" data-name="사각형 4039" width="40" height="40" fill="#cfcdcd"/>
+              <rect id="사각형_4040" data-name="사각형 4040" width="40" height="40" fill="#cfcdcd"/>
+              <g id="그룹_5220" data-name="그룹 5220">
+                <g id="그룹_5219" data-name="그룹 5219" clip-path="url(#clip-path)">
+                  <g id="그룹_5218" data-name="그룹 5218" opacity="0">
+                    <g id="그룹_5217" data-name="그룹 5217">
+                      <g id="그룹_5216" data-name="그룹 5216" clip-path="url(#clip-path)">
+                        <rect id="사각형_4041" data-name="사각형 4041" width="40" height="40" fill="#cfcdcd"/>
+                        <rect id="사각형_4042" data-name="사각형 4042" width="40" height="40" fill="#cfcdcd"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="패스_9376" data-name="패스 9376" d="M9.745,26.47l-3.6,3.6-2.789-2.79,3.969-6.7,6.219-3.49L16,18.116,31.433,3.358l5.208,5.209L21.884,24l1.026,2.45-3.489,6.22-6.7,3.969-2.79-2.79,3.55-3.55" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="패스_9377" data-name="패스 9377" d="M14.681,30.611l3.055-3.055-1.118-4.173-4.173-1.118L9.389,25.32l1.118,4.173Z" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="선_863" data-name="선 863" x1="1.026" y2="1.026" transform="translate(13.049 25.925)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>
