@@ -167,7 +167,9 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
-
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 
 <!----------------- head end ----------------->
    </head>
@@ -190,10 +192,34 @@
                      <div class="elementor-widget-container">
                         <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
                            <ul id="menu-1-df092b1" class="elementor-nav-menu" data-smartmenus-id="17325128525666155">
-
-                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1199"><a href="#" class="elementor-item">Contact</a></li>
+                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1199">
+                                 <a href="#" class="elementor-item" id="contact-link">Contact</a>
+                              </li>
                            </ul>
                         </nav>
+
+                        <!-- Modal -->
+                        <div id="contact-modal" class="modal">
+                           <div class="modal-content">
+                              <span class="close-btn" id="close-modal">&times;</span>
+                              <h2 class="modal-head"style="font-family: Noto Sans KR, sans-serif;">Portfolio</h2>
+                              <br>
+                              <hr>
+                              <span>김경태</span>
+                              <span style="font-size:20px; padding-left:5px">Dev</span>
+                              <br>
+                              <br>
+                              <br>
+                              <span style="font-size:20px; ">010-2669-3746</span>
+                              <br>
+                              <br>
+                              <span style="font-size:20px;" >khkl2588@naver.com</span>
+                              <!-- You can add a form or content here -->
+                           </div>
+                        </div>
+
+
+
                         <div class="elementor-menu-toggle elementor-active" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="true" >
 
                         <span class="elementor-menu-toggle__icon--open"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none"><rect width="60" height="60" rx="30" fill="#7DE500"></rect><rect x="19" y="21" width="22" height="2" rx="1" fill="#22282B"></rect><rect x="19" y="29" width="22" height="2" rx="1" fill="#22282B"></rect><rect x="19" y="37" width="22" height="2" rx="1" fill="#22282B"></rect></svg>
@@ -411,7 +437,7 @@
                <h3 class="elementor-heading-title elementor-size-default"  style="font-family: Noto Sans KR, sans-serif;" >
                   <a class="elementor-element elementor-element-bc02e13 e-con-full e-flex e-con e-child" data-id="bc02e13" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="#">
                   </a>
-                  <a href="01_kia/index.html" style="color:white; font-weight: bold;">Kia</a>
+                  <a href="todo/index.html" style="color:white; font-weight: bold;">TodoList</a>
                </h3>
                <a class="elementor-element elementor-element-bc02e13 e-con-full e-flex e-con e-child" data-id="bc02e13" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="#">
                
@@ -424,13 +450,13 @@
                   </div>
                   <div class="elementor-element elementor-element-29defdd elementor-widget elementor-widget-heading" data-id="29defdd" data-element_type="widget" data-widget_type="heading.default">
                   <div class="elementor-widget-container">
-               <p class="elementor-heading-title elementor-size-default"  style="font-family: Noto Sans KR, sans-serif; font-weight: bold;"><a href="01_kia/index.html">HTML CSS JS</a></p>		</div>
+               <p class="elementor-heading-title elementor-size-default"  style="font-family: Noto Sans KR, sans-serif; font-weight: bold;"><a href="todo/index.html">HTML CSS JS VUE</a></p>		</div>
                   </div>
                   </div>
                   <div class="elementor-element elementor-element-669b4a0 elementor-widget elementor-widget-image" data-id="669b4a0" data-element_type="widget" data-widget_type="image.default">
                   <div class="elementor-widget-container">
-                     <a href="01_kia/index.html">
-                        <img loading="lazy" decoding="async" width="1440" height="960" src="img/K-001.png" class="attachment-full size-full wp-image-42" alt="web design for b2b websites" sizes="(max-width: 1440px) 100vw, 1440px">
+                     <a href="todo/index.html">
+                        <img loading="lazy" decoding="async" width="1440" height="960" src="img/todo.png" class="attachment-full size-full wp-image-42" alt="web design for b2b websites" sizes="(max-width: 1440px) 100vw, 1440px">
                      </a>
                   </div>
                   </div>
